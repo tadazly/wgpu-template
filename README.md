@@ -8,3 +8,10 @@
 ```shell
 cargo run
 ```
+
+## examples
+
+### triangle
+```shell
+cargo run --example triangle
+```
