@@ -15,6 +15,10 @@ path = "examples/buffer/mod.rs"
 name = "texture"
 path = "examples/texture/mod.rs"
 
+[[example]]
+name = "uniform"
+path = "examples/uniform/mod.rs"
+
 [dependencies]
 wgpu = "0.20.0"
 winit = "0.30.0"
@@ -24,3 +28,4 @@ pollster = "0.3"
 bytemuck = { version = "1.15.0", features = [ "derive" ]}
 image = "0.25.1"
 anyhow = "1.0.83"
+cgmath = "0.18"

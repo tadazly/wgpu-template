@@ -31,3 +31,11 @@ Shows how to sample texture.
 ```shell
 cargo run --example texture
 ```
+
+### 4. Uniform
+Shows how to bind uniform to shader.
+
+Press WASD to rotate.
+```shell
+cargo run --example uniform
+```
