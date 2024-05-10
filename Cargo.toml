@@ -11,6 +11,10 @@ path = "examples/triangle/mod.rs"
 name = "buffer"
 path = "examples/buffer/mod.rs"
 
+[[example]]
+name = "texture"
+path = "examples/texture/mod.rs"
+
 [dependencies]
 wgpu = "0.20.0"
 winit = "0.30.0"
@@ -18,3 +22,5 @@ env_logger = "0.11"
 log = "0.4"
 pollster = "0.3"
 bytemuck = { version = "1.15.0", features = [ "derive" ]}
+image = "0.25.1"
+anyhow = "1.0.83"

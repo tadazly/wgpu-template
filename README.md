@@ -24,3 +24,10 @@ Shows how to use Vertex Buffer and Index Buffer.
 ```shell
 cargo run --example buffer
 ```
+
+### 3. Texture
+Shows how to sample texture.
+
+```shell
+cargo run --example texture
+```
