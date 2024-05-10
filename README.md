@@ -9,9 +9,18 @@
 cargo run
 ```
 
-## examples
+## Examples
 
-### triangle
+### 1. Triangle
+Shows how to draw a simple Triangle without setting buffers.
+
 ```shell
 cargo run --example triangle
+```
+
+### 2. Buffer
+Shows how to use Vertex Buffer and Index Buffer.
+
+```shell
+cargo run --example buffer
 ```
