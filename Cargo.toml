@@ -19,6 +19,18 @@ path = "examples/texture/mod.rs"
 name = "uniform"
 path = "examples/uniform/mod.rs"
 
+[[example]]
+name = "instance"
+path = "examples/instance/mod.rs"
+
+[[example]]
+name = "depthBuffer"
+path = "examples/depthBuffer/mod.rs"
+
+[[example]]
+name = "model"
+path = "examples/model/mod.rs"
+
 [dependencies]
 wgpu = "0.20.0"
 winit = "0.30.0"
@@ -29,3 +41,6 @@ bytemuck = { version = "1.15.0", features = [ "derive" ]}
 image = "0.25.1"
 anyhow = "1.0.83"
 cgmath = "0.18"
+tobj = { version = "3.2.1", features = [
+    "async",
+]}

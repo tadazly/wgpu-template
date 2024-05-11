@@ -39,3 +39,24 @@ Press WASD to rotate.
 ```shell
 cargo run --example uniform
 ```
+
+### 5. Instance
+Shows how to draw instances.
+
+```shell
+cargo run --example instance
+```
+
+### 6. DepthBuffer
+Shows how to use depth test.
+
+```shell
+cargo run --example depthBuffer
+```
+
+### 6. Model
+Shows how to load model.
+
+```shell
+cargo run --example model
+```
